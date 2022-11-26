@@ -149,7 +149,33 @@ Create Another Controller named ParticipantController.cs.
 
 Add and Edit some codes in the Participant and Question controller.
 
-![Screenshot 2022-11-26 22 24 37](https://user-images.githubusercontent.com/118221854/204093707-91713724-5b0c-4180-a68e-71fe4164c3a8.png)
+![Screenshot 2022-11-26 22 32 05](https://user-images.githubusercontent.com/118221854/204094055-27f52493-4983-40f3-91de-cd63f90e697b.png)
+
+Go back to Visual Code > to useForm.js
+
+In order to make an API request from React Application to the  ApplicantAPI. Install the package Axios.
+
+Open New Terminal then> npm i axios
+
+Create a new folder under src named api. Create index.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To Test it Run the Project and it will go to Swagger
+
 
 
 
