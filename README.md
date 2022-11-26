@@ -41,7 +41,7 @@ Create a folder name hooks
 
 Create a file name useForm.js
 
-Create the Text field for Email, name with error function
+Encode some codes to Create the Text field for Email and name with error function. See attached file.
 
 Create ASP.Net Project
 
@@ -60,6 +60,22 @@ Click Create.
 Install Microsoft.EntityFrameworkCore v6 thru NuGet Packages.
 
 Install also the Microsoft.EntityFrameworkCore.SqlServer and .Tools.
+
+Create a Folder named Models.
+
+Create a class named Question.cs
+
+Encode some codes. See attach File for this code.
+
+Create another class named Participant.cs
+
+Encode some codes. See attach File for this code.
+
+Create a class named ApplicantDBContext.cs
+
+Encode some codes. See attach File for this code.
+
+
 
 
 
