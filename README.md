@@ -167,7 +167,9 @@ Import the Axios to index.js and copy the URL in the Swagger then make a connect
 
 ![Screenshot 2022-11-26 22 53 42](https://user-images.githubusercontent.com/118221854/204095078-50380314-bd36-4d86-8ed5-e7b22f34f0f4.png)
 
+Now we make post request to the ApplicantAPI. Inside the login.js add some of these codes.
 
+![Screenshot 2022-11-26 22 59 24](https://user-images.githubusercontent.com/118221854/204095360-90d80b23-4e54-4e85-87ff-1007240cd466.png)
 
 
 
