@@ -179,6 +179,11 @@ Now try it with the React App and under console the data will be shown.
 
 ![Screenshot 2022-11-26 23 09 52 2](https://user-images.githubusercontent.com/118221854/204095887-d70b6918-ccec-4309-affd-f4097af6bfcf.png)
 
+Check also your database if it is working.
+
+![Screenshot 2022-11-26 23 16 27](https://user-images.githubusercontent.com/118221854/204095993-9d35f177-f045-4a58-8335-9faae330ecdf.png)
+
+If you register with the same email and name it will not post for new but still get the same id.
 
 
 
