@@ -9,6 +9,8 @@ It will help HR Personnel in assessing their Applicants thru the sets of questio
 
 Although it is subjective approach but it may have a bigger help in deciding who will be hired in your Precious Company.
 
+Now if you are interested. This is how I did it!
+
 Open Folder you want to save the Application.
 
 From folder directory type "cmd" and hit enter.
@@ -128,6 +130,31 @@ Then Execute
 The Right Click on the dbo.Questions then Select the Top 1000 Rows
 
 ![Screenshot 2022-11-26 18 25 21](https://user-images.githubusercontent.com/118221854/204084058-439f656b-8b4c-4d88-b3a5-8db36d9dd9f3.png)
+
+Now it is time to create API Controllers
+
+Before that Click again the build to check if there is an error. If none, proceed.
+
+Right CLick on Controller and Add Controller, Select API, then API Controller with actions, using Entity Framework.
+
+Select Model class as Question (ApplicantAPiModels).
+
+Then, Data context class is ApplicantDbContext (ApplicantAPIModels). And named it as QuestionController.cs
+
+It will automatically created a script or codes inside of it. 
+
+There will have some error but just install Microsoft.VisualStudio.Web.CodeGeneration.Design thru Manage NuGet Packages to solve it.
+
+Create Another Controller named ParticipantController.cs.
+
+Add and Edit some codes in the Participant and Question controller.
+
+![Screenshot 2022-11-26 22 24 37](https://user-images.githubusercontent.com/118221854/204093707-91713724-5b0c-4180-a68e-71fe4164c3a8.png)
+
+
+
+
+
 
 
 
