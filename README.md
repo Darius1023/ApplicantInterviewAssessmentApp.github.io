@@ -113,9 +113,15 @@ are properly created.
 
 ![Screenshot 2022-11-26 18 15 52](https://user-images.githubusercontent.com/118221854/204083668-661662d3-bcc9-4741-9fed-7bfad11663ba.png)
 
+After that create a query with the question and answer to be inserted in the dbo.Questions
 
+![Screenshot 2022-11-26 18 23 48](https://user-images.githubusercontent.com/118221854/204083982-65f2e27d-7915-42c9-a538-99dca3d3d3a5.png)
 
+Then Execute
 
+The Right Click on the dbo.Questions then Select the Top 1000 Rows
+
+![Screenshot 2022-11-26 18 25 21](https://user-images.githubusercontent.com/118221854/204084058-439f656b-8b4c-4d88-b3a5-8db36d9dd9f3.png)
 
 
 
