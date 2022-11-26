@@ -175,7 +175,9 @@ Now we copy the the URL in the React App and make some code inside the Program.c
 
 ![Screenshot 2022-11-26 23 07 30](https://user-images.githubusercontent.com/118221854/204095611-3126f375-1bba-4b95-853c-3870bdce790b.png)
 
+Now try it with the React App and under console the data will be shown.
 
+![Screenshot 2022-11-26 23 09 52 2](https://user-images.githubusercontent.com/118221854/204095887-d70b6918-ccec-4309-affd-f4097af6bfcf.png)
 
 
 
