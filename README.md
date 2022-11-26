@@ -1,7 +1,6 @@
 <<<<<<< HEAD
-# ApplicantInterviewAssessmentApp
-Applicant Interview Assessment
+# Applicant Interview Assessment App
+
 =======
-# ApplicantApp
  
 >>>>>>> 943f762 (first commit)
