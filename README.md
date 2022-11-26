@@ -185,11 +185,19 @@ Check also your database if it is working.
 
 If you register with the same email and name it will not post for new but still get the same id.
 
+Now Let us configure Context API.
 
+Let us create a file under components named Question.js. Import the following code.
 
+![Screenshot 2022-11-26 23 22 07](https://user-images.githubusercontent.com/118221854/204096204-003f3c73-e044-4e7c-8c4b-d25dbf136826.png)
 
+Let us also create a file under components named Result.js
 
+![Screenshot 2022-11-26 23 24 29](https://user-images.githubusercontent.com/118221854/204096316-a41f2adb-c607-4e5b-8853-8bdbd51ec991.png)
 
+Create new file under hooks named useStateContext.js
+
+![Screenshot 2022-11-26 23 24 40](https://user-images.githubusercontent.com/118221854/204096326-3cfbd374-3fbd-4d57-8f75-657e2a35c11c.png)
 
 
 
