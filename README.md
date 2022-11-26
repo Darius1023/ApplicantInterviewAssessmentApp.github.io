@@ -25,3 +25,8 @@ Inside of Login.js type rfc (should install ES7 + React/Redux/React-Native snipp
 It create a automatic Component.
 
 ![Screenshot 2022-11-26 12 08 43](https://user-images.githubusercontent.com/118221854/204071862-aa2c18c7-948e-4c7c-bcaa-db9dc2aa7fca.png)
+
+Create a folder name hooks
+
+Create a file name useForm.js
+
