@@ -1,0 +1,21 @@
+https://github.com/Darius1023/ApplicantInterviewAssessmentApp
+https://github.com/Darius1023/ApplicantInterviewAssApp.git
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Darius1023/ApplicantInterviewAssessmentApp
+git push -u origin main
+
+git pull https://github.com/Darius1023/ApplicantInterviewAssessmentApp
+
+git merge origin https://github.com/Darius1023/ApplicantInterviewAssessmentApp
+
+git remote add origin https://github.com/Darius1023/ApplicantInterviewAssApp
+
+git pull https://github.com/Darius1023/ApplicantInterviewAssApp
+
+git pull --rebase origin main
+
+git push origin HEAD:main
