@@ -153,12 +153,19 @@ Add and Edit some codes in the Participant and Question controller.
 
 Go back to Visual Code > to useForm.js
 
+To Test it Run the Project and it will go to Swagger
+
+![Screenshot 2022-11-26 22 52 04](https://user-images.githubusercontent.com/118221854/204094998-bbbe3e63-ae09-4504-a117-8070dcddd00d.png)
+
 In order to make an API request from React Application to the  ApplicantAPI. Install the package Axios.
 
 Open New Terminal then> npm i axios
 
 Create a new folder under src named api. Create index.js
 
+Import the Axios to index.js and copy the URL in the Swagger then make a connection by following this code:
+
+![Screenshot 2022-11-26 22 53 42](https://user-images.githubusercontent.com/118221854/204095078-50380314-bd36-4d86-8ed5-e7b22f34f0f4.png)
 
 
 
@@ -171,10 +178,6 @@ Create a new folder under src named api. Create index.js
 
 
 
-
-
-
-To Test it Run the Project and it will go to Swagger
 
 
 
