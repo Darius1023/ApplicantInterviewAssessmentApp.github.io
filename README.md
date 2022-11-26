@@ -105,13 +105,13 @@ After you connect, the created database ApplicantDB will be shown.
 
 ![Screenshot 2022-11-26 18 05 39](https://user-images.githubusercontent.com/118221854/204083407-daa4fac1-b42d-4744-8bf0-2ea5fc9a8aed.png)
 
+Let us expand the ApplicantDB, Open the Tables, Click the design of dbo.Participants and dbo.Questions  to check if they
 
+are properly created.
 
+![Screenshot 2022-11-26 18 15 43](https://user-images.githubusercontent.com/118221854/204083666-d99051ce-29f5-45e4-8fac-280faa3650c4.png)
 
-
-
-
-
+![Screenshot 2022-11-26 18 15 52](https://user-images.githubusercontent.com/118221854/204083668-661662d3-bcc9-4741-9fed-7bfad11663ba.png)
 
 
 
