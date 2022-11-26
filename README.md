@@ -35,8 +35,6 @@ Inside of Login.js type rfc (should install ES7 + React/Redux/React-Native snipp
 
 It create a automatic Component.
 
-![Screenshot 2022-11-26 12 08 43](https://user-images.githubusercontent.com/118221854/204071862-aa2c18c7-948e-4c7c-bcaa-db9dc2aa7fca.png)
-
 Create a folder name hooks
 
 Create a file name useForm.js
@@ -74,6 +72,23 @@ Encode some codes. See attach File for this code.
 Create a class named ApplicantDBContext.cs
 
 Encode some codes. See attach File for this code.
+
+Encoce some codes at Program.cs. See attach File for this code.
+
+Encoce some codes at appsetting.json. See attach File for this code.
+
+Click Window, then Run, type services.msc
+
+Check SQL Server (SQLEXPRESS) is running.
+
+![Screenshot 2022-11-26 17 48 12](https://user-images.githubusercontent.com/118221854/204082678-582d03b4-8ed6-4c46-af47-65ab6c8b97b1.png)
+
+If you can't see it, then install the Microsoft SQL Server Management 19
+
+Build the project by right click on the API then choose Build.
+
+We will do migration. Go to Tools> NuGet Package Manager >Package Manager Console
+
 
 
 
