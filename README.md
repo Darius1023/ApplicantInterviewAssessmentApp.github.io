@@ -197,6 +197,22 @@ Create new file under hooks named useStateContext.js
 
 ![Screenshot 2022-11-26 23 24 40](https://user-images.githubusercontent.com/118221854/204096326-3cfbd374-3fbd-4d57-8f75-657e2a35c11c.png)
 
+Follow coding in my video for setting up the configuration of API of different components.
+
+After that, let us route configuration.
+
+Open New Terminal and type >npm i react-router-dom to install the react-router-dom
+
+Follow this codes:
+
+![Screenshot 2022-11-26 23 46 29](https://user-images.githubusercontent.com/118221854/204097187-e9cae072-8dd5-4b9a-a9f3-dfbaf7067cba.png)
+
+Follow my video again for other codes in the login.js for navigation
+
+
+
+
+
 
 
 
