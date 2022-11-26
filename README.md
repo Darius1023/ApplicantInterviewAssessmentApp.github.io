@@ -2,6 +2,12 @@
 # Applicant Interview Assessment App
 
 ![Screenshot 2022-11-26 11 15 54](https://user-images.githubusercontent.com/118221854/204070515-e026e8f5-3137-4811-b893-61540a0c9a44.png)
+ 
+Applicant Interview Assessment App is a Website Application for HR Personnel who interviewed thier Applicants.
+
+It will help HR Personnel in assessing their Applicants thru the sets of questions given.
+
+Although it is subjective approach but it may have a bigger help in deciding who will be hired in your Precious Company.
 
 Open Folder you want to save the Application.
 
