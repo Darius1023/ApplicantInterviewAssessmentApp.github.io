@@ -19,7 +19,7 @@ Execute command >npx create-react-app applicant-app.
 
 Find the folder and open it with visual code.
 
-Check if the creation is okey by hitting control j to show terminal and type nmp start.
+Check if the creation is okey by hitting control j to show terminal and type nmp start. It will show the default React Web Application.
 
 From mui.com find the link and install this: npm install @mui/material @emotion/react @emotion/styled.
 
@@ -171,6 +171,9 @@ Now we make post request to the ApplicantAPI. Inside the login.js add some of th
 
 ![Screenshot 2022-11-26 22 59 24](https://user-images.githubusercontent.com/118221854/204095360-90d80b23-4e54-4e85-87ff-1007240cd466.png)
 
+Now we copy the the URL in the React App and make some code inside the Program.cs
+
+![Screenshot 2022-11-26 23 07 30](https://user-images.githubusercontent.com/118221854/204095611-3126f375-1bba-4b95-853c-3870bdce790b.png)
 
 
 
