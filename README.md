@@ -41,3 +41,35 @@ Create a folder name hooks
 
 Create a file name useForm.js
 
+Create the Text field for Email, name with error function
+
+Create ASP.Net Project
+
+Open Visual Studio 2022
+
+Choose ASP.NET Core Web API
+
+Name the Project. 
+
+Choose Net 6.0 (Long-term support)
+
+Uncheck the Configure for HTTPS.
+
+Click Create.
+
+Install Microsoft.EntityFrameworkCore v6 thru NuGet Packages.
+
+Install also the Microsoft.EntityFrameworkCore.SqlServer and .Tools.
+
+
+
+
+
+
+
+
+
+
+
+
+
