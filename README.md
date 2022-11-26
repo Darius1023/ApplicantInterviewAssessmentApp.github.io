@@ -83,11 +83,36 @@ Check SQL Server (SQLEXPRESS) is running.
 
 ![Screenshot 2022-11-26 17 48 12](https://user-images.githubusercontent.com/118221854/204082678-582d03b4-8ed6-4c46-af47-65ab6c8b97b1.png)
 
-If you can't see it, then install the Microsoft SQL Server Management 19
+If you can't see it, then install the Microsoft SQL Server Management Studio 19
 
 Build the project by right click on the API then choose Build.
 
 We will do migration. Go to Tools> NuGet Package Manager >Package Manager Console
+
+Make Sure that the Default Project is the name of your project you are working for.
+
+Under Package Manager Console Type Add-Migration "initial create" and hit enter. During this process 
+
+the Script will be created according to the Model we have inside this project.
+
+After that, type Update-Database and hit enter. It will create a database using Ms SQL Server Management Studio 19
+
+To check it, open Ms SQL Server Management Studio 19, then type the name of your server : (local)\sqlexpress then connect.
+
+![Screenshot 2022-11-26 18 07 08](https://user-images.githubusercontent.com/118221854/204083384-355470cd-7c10-4b3a-a358-c4324144a2ab.png)
+
+After you connect, the created database ApplicantDB will be shown.
+
+![Screenshot 2022-11-26 18 05 39](https://user-images.githubusercontent.com/118221854/204083407-daa4fac1-b42d-4744-8bf0-2ea5fc9a8aed.png)
+
+
+
+
+
+
+
+
+
 
 
 
