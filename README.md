@@ -225,6 +225,16 @@ Create a new folder called helper to format the time in proper format. Create a 
 
 ![Screenshot 2022-11-27 16 56 39](https://user-images.githubusercontent.com/118221854/204126917-4cd6a416-ba8a-4007-a63e-435312db0abb.png)
 
+Create Title Bar for all pages and  buttons in the Result to Submit the grade and log-out. Create a component named Layout.js. 
+
+Search again at mui.com for Appbar. And follow these codes.
+
+![Screenshot 2022-11-27 17 24 42](https://user-images.githubusercontent.com/118221854/204128034-e42e1ef9-72d5-4695-aeda-a2c18eb29ed2.png)
+
+
+
+
+
 
 
 
