@@ -209,6 +209,9 @@ Follow this codes:
 
 Follow my video again for other codes in the login.js for navigation
 
+For Questions in the Application to be shown in the Front End Let us have some code like this. 
+
+![Screenshot 2022-11-27 16 26 03](https://user-images.githubusercontent.com/118221854/204125854-f18d5d22-03a5-4b3a-96d5-bc267e6ae740.png)
 
 
 
