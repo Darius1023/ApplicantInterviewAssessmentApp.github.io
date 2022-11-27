@@ -213,7 +213,17 @@ For Questions in the Application to be shown in the Front End Let us have some c
 
 ![Screenshot 2022-11-27 16 26 03](https://user-images.githubusercontent.com/118221854/204125854-f18d5d22-03a5-4b3a-96d5-bc267e6ae740.png)
 
+To Test it if it is working, try it in the swagger.
 
+![Screenshot 2022-11-27 16 28 58](https://user-images.githubusercontent.com/118221854/204125947-d46ed1ba-6e60-44ab-a7fa-2aa0d88011c0.png)
+
+We will make also some codes in the components of React the same effect of request. Follow these codes.
+
+![Screenshot 2022-11-27 16 54 25](https://user-images.githubusercontent.com/118221854/204126844-b4d58fcc-0976-4195-a4b1-8e99f2a97bc4.png)
+
+Create a new folder called helper to format the time in proper format. Create a file named index.js. Follow these codes
+
+![Screenshot 2022-11-27 16 56 39](https://user-images.githubusercontent.com/118221854/204126917-4cd6a416-ba8a-4007-a63e-435312db0abb.png)
 
 
 
