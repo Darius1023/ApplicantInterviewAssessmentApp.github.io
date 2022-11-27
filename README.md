@@ -231,10 +231,9 @@ Search again at mui.com for Appbar. And follow these codes.
 
 ![Screenshot 2022-11-27 17 24 42](https://user-images.githubusercontent.com/118221854/204128034-e42e1ef9-72d5-4695-aeda-a2c18eb29ed2.png)
 
+To add Title and Log out button, create new component named Layout.js and follow these some codes
 
-
-
-
+![Screenshot 2022-11-27 18 34 23](https://user-images.githubusercontent.com/118221854/204130646-83b2679b-dfe8-472b-9339-364407255f0f.png)
 
 
 
