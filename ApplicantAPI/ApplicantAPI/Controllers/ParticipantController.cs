@@ -60,7 +60,7 @@ namespace ApplicantAPI.Controllers
 
             try
             {
-                await _context.SaveChangesAsync();
+                await _context.SaveChangesAsync();//update new values at database
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -85,7 +85,7 @@ namespace ApplicantAPI.Controllers
             var temp = _context.Participants
                .Where(x => x.Name == participant.Name
                && x.Email == participant.Email)
-               .FirstOrDefault();
+               .FirstOrDefault(); //cuztomized code to add participant. You can test it to swagger by running the project.
 
             if (temp == null)
             {

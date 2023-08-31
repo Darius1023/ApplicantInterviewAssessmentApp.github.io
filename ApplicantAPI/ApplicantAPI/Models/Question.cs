@@ -13,7 +13,7 @@ namespace ApplicantAPI.Models
         public string QnInWords { get; set; }
 
         [Column(TypeName = "nvarchar(50)")]
-        public string? ImageName { get; set; }
+        public string? ImageName { get; set; } //Question Mark means Nullable.
 
         [Column(TypeName = "nvarchar(50)")]
         public string Option1 { get; set; }

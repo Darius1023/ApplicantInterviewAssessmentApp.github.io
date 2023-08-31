@@ -25,8 +25,8 @@ namespace ApplicantAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Question>>> GetQuestions()
         {
-
-            var inorder10Qns = await (_context.Questions
+            //This makes the questions in random list.
+            var random10Qns = await (_context.Questions
                 .Select(x => new
                 {
                     QnId = x.QnId,
@@ -39,7 +39,7 @@ namespace ApplicantAPI.Controllers
                 .Take(10)
                 ).ToListAsync();
 
-            return Ok(inorder10Qns);
+            return Ok(random10Qns);
         }
 
         // GET: api/Question/5
@@ -102,8 +102,8 @@ namespace ApplicantAPI.Controllers
                     ImageName = y.ImageName,
                     Options = new string[] { y.Option1, y.Option2, y.Option3, y.Option4 },
                     Answer = y.Answer
-                })).ToListAsync();
-            return Ok(answers);
+                })).ToListAsync(); //show list of questions
+            return Ok(answers); //results
         }
 
         // DELETE: api/Question/5
