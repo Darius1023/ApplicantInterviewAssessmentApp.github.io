@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ApplicantInterviewAssessmentApp.github.io/static/css/main.3e576c3e.css",
+    "main.js": "/ApplicantInterviewAssessmentApp.github.io/static/js/main.fc5e6325.js",
+    "static/js/787.02847a64.chunk.js": "/ApplicantInterviewAssessmentApp.github.io/static/js/787.02847a64.chunk.js",
+    "index.html": "/ApplicantInterviewAssessmentApp.github.io/index.html",
+    "main.3e576c3e.css.map": "/ApplicantInterviewAssessmentApp.github.io/static/css/main.3e576c3e.css.map",
+    "main.fc5e6325.js.map": "/ApplicantInterviewAssessmentApp.github.io/static/js/main.fc5e6325.js.map",
+    "787.02847a64.chunk.js.map": "/ApplicantInterviewAssessmentApp.github.io/static/js/787.02847a64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e576c3e.css",
+    "static/js/main.fc5e6325.js"
+  ]
+}
