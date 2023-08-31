@@ -8,6 +8,6 @@ export default function Authenticate() {
     return (
         context.participantId == 0
             ? <Navigate to="/" />
-            : <Outlet />
+            : <Outlet />//prevent to by pass log in page
     )
 }

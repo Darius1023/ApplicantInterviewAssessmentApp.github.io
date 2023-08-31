@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Login/>}  />
-        <Route element={<Authenticate />}>
+        <Route element={<Authenticate />}> 
           <Route path="/" element={<Layout />}>
             <Route path="/question" element={<Question/>}  /> 
             <Route path="/result" element={<Result/>}  />
@@ -20,6 +20,6 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
-}
+}//authenticate prevents to by pass the log in page.
 
 export default App;

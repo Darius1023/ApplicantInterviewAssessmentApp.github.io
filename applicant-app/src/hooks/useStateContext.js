@@ -5,13 +5,13 @@ import React, { createContext, useContext, useState, useEffect } from 'react'
 export const stateContext = createContext();
 
 const getFreshContext = () => {
-    if (localStorage.getItem('context') === null)
+    if (localStorage.getItem('context') === null) //save from first page
         localStorage.setItem('context', JSON.stringify({
             participantId: 0,
             timeTaken: 0,
             selectedOptions: []
         }))
-    return JSON.parse(localStorage.getItem('context'))
+    return JSON.parse(localStorage.getItem('context')) 
 }
 
 export default function useStateContext() {
@@ -37,6 +37,6 @@ export function ContextProvider({ children }) {
     return (
         <stateContext.Provider value={{ context, setContext }}>
             {children}
-        </stateContext.Provider>
+        </stateContext.Provider> //share data
     )
 }    

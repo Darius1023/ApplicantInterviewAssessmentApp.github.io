@@ -27,16 +27,16 @@ export default function Login() {
 
     useEffect(() => {
         resetContext()
-    }, [])
+    }, [])//Prevent from accressing again when question pages appears
 
 
     const login = e => {
         e.preventDefault();
         if (validate())
-            createAPIEndpoint(ENDPOINTS.participant)
+            createAPIEndpoint(ENDPOINTS.participant) //connect to API
                 .post(values)
                 .then(res => {
-                    setContext({ participantId: res.data.participantId })
+                    setContext({ participantId: res.data.participantId }) 
                     navigate('/question')
                 })
                 .catch(err => console.log(err))
@@ -44,47 +44,47 @@ export default function Login() {
 
     const validate = () => {
         let temp = {}
-        temp.email = (/\S+@\S+\.\S+/).test(values.email) ? "" : "Email is not valid."
-        temp.name = values.name != "" ? "" : "This field is required."
+        temp.email = (/\S+@\S+\.\S+/).test(values.email) ? "" : "Email is not valid." //error message
+        temp.name = values.name != "" ? "" : "This field is required." //error message
         setErrors(temp)
         return Object.values(temp).every(x => x == "")
     }
 
     return (
         <Center>
-            <Card sx={{ width: 400 }}>
-                <CardContent sx={{ textAlign: 'center' }}>
+            <Card sx={{ width: 400 }}> 
+                <CardContent sx={{ textAlign: 'center' }}> 
                     <Typography variant="h3" sx={{ my: 3 }}>
-                        Applicant Interview Assessment
-                    </Typography>
+                        Applicant Interview Assessment 
+                    </Typography> 
                     <Box sx={{
-                        '& .MuiTextField-root': {
-                            m: 1,
-                            width: '90%'
+                        '& .MuiTextField-root': { //a class/ //property of the box, go to mui.com
+                            m: 1, //margin
+                            width: '90%' //attribute
                         }
                     }}>
-                        <form noValidate autoComplete="off" onSubmit={login}>
+                        <form noValidate autoComplete="off" onSubmit={login}> 
                             <TextField
-                                label="Email"
+                                label="Email" //textbox for email
                                 name="email"
-                                value={values.email}
+                                value={values.email} //email only
                                 onChange={handleInputChange}
                                 variant="outlined"
                                 {...(errors.email && { error: true, helperText: errors.email })} />
                             <TextField
-                                label="Name"
+                                label="Name" //textbox for Name
                                 name="name"
                                 value={values.name}
                                 onChange={handleInputChange}
                                 variant="outlined"
                                 {...(errors.name && { error: true, helperText: errors.name })} />
                             <Button
-                                type="submit"
-                                variant="contained"
+                                type="submit" //button for starting
+                                variant="contained" 
                                 size="large"
                                 sx={{ width: '90%' }}>Start</Button>
                         </form>
-                    </Box>
+                    </Box> 
                 </CardContent>
             </Card>
         </Center>

@@ -12,5 +12,5 @@ export default function Center(props) {
                 {props.children}
             </Grid>
         </Grid>
-  )
+  )//this is to make the form center
 }

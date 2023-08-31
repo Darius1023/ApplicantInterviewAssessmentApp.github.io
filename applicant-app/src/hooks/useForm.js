@@ -3,7 +3,7 @@ import { useState } from 'react';
 export default function useForm(getFreshModelObject) {
 
     const [values, setValues] = useState(getFreshModelObject());
-    const [errors, setErrors] = useState({});
+    const [errors, setErrors] = useState({}); 
 
     const handleInputChange = e => {
         const { name, value } = e.target
@@ -21,3 +21,5 @@ export default function useForm(getFreshModelObject) {
         handleInputChange
     } 
 }
+
+//This provide a function to insert data in the form

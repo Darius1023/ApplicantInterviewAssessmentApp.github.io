@@ -9,7 +9,7 @@ export default function Layout() {
 
     const logout = () => {
         resetContext()
-        navigate("/")
+        navigate("/")//navigate to log-in form
     }
 
     return (
@@ -29,5 +29,5 @@ export default function Layout() {
                 <Outlet />
             </Container>
         </>
-    )
+    )//Shows the title of the app and the button to log out.
 }

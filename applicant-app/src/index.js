@@ -7,13 +7,13 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import { ContextProvider } from './hooks/useStateContext';
 
-
+//theme
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
   },
   typography:{
-    fontFamily:'"IBM Plex Sans"'
+    fontFamily:'"IBM Plex Sans"' //change the default font
   }
 });
 

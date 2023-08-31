@@ -23,7 +23,7 @@ export default function Result() {
         const qna = context.selectedOptions
           .map(x => ({
             ...x,
-            ...(res.data.find(y => y.qnId == x.qnId))
+            ...(res.data.find(y => y.qnId == x.qnId))//merge the answers
           }))
         setQnAnswers(qna)
         calculateScore(qna)
@@ -34,7 +34,7 @@ export default function Result() {
 
   const calculateScore = qna => {
     let tempScore = qna.reduce((acc, curr) => {
-      return curr.answer == curr.selected ? acc + 1 : acc;
+      return curr.answer == curr.selected ? acc + 1 : acc; //calculate the correct answers
     }, 0)
     setScore(tempScore)
   }
@@ -58,7 +58,7 @@ export default function Result() {
         setShowAlert(true)
         setTimeout(() => {
           setShowAlert(false)
-        }, 4000);
+        }, 4000); //the alert will vanish.
       })
       .catch(err => { console.log(err) })
   }
@@ -100,7 +100,7 @@ export default function Result() {
                 m: 'auto',
                 visibility: showAlert ? 'visible' : 'hidden'
               }}>
-              Score Updated.
+              Grade Updated.
             </Alert>
           </CardContent>
         </Box>
